@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo List</title>
+    <link rel="stylesheet" href="style.css" />
+  
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="sub-container"></div>
+        <div class="box">
+            <div class="todoContent">
+          <h1>Todo List</h1>
+        </div>
+        <div class="task">
+          <div class="task-content">
+            <p>Add a new Task</p> 
+          </div>
+          <div class="inputPlace">
+            <input type="text" id="todoInput" placeholder="Add a new Task">
+            <button onclick="addTodo()">Add Todo</button>
+          </div>
+          
+          <ul id="todoList"></ul>
+        <div class="deleteButtons">   <button onclick="deleteSelectedTodos()">Delete Selected</button>
+        </div>
+        </div>
+       
+        
+    </div>
+      </div>
+    </div>
+    <script src="https://kit.fontawesome.com/70f171c465.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+  </body>
+</html>

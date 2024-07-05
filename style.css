@@ -1,0 +1,118 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+.main-container .sub-container {
+  background-color: rgb(69, 83, 177);
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+}
+.box {
+  z-index: -1;
+  margin-top: -6vh;
+  border: none;
+}
+
+.box .todoContent {
+  background-color: rgb(69, 83, 177);
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+  border: 1px solid rgb(69, 83, 177);
+  border-radius: 9px 9px 0 0;
+  box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.2);
+}
+.todoContent h1 {
+  color: white;
+  padding-left: 35%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.task {
+  background-color: rgb(255, 255, 255);
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-bottom: 5%;
+  box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.2);
+  border-radius: 0 0 9px 9px;
+}
+.task-content {
+  color: rgb(69, 83, 177);
+  padding-left: 5%;
+  padding-top: 4%;
+  font-size: 18px;
+}
+
+input[type="text"] {
+  width: 70%;
+  padding: 10px;
+  margin-bottom: 10px;
+  margin-left: 5%;
+  border: none;
+  font-size: 18px;
+  background-color: rgb(233, 238, 253);
+  border-bottom: 2px solid rgb(69, 83, 177);
+  outline: none;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: rgb(69, 83, 177);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+button:hover {
+  background-color: rgb(17, 31, 123);
+}
+.deleteSelectedTodos {
+  background-color: pink;
+}
+
+.delete-btn {
+  padding: 5px 12px;
+  background-color: rgb(221, 86, 128);
+  color: #fff;
+  border: none;
+  border-radius: 23px;
+  cursor: pointer;
+  font-size: 26px;
+  margin-left: 70%;
+}
+
+.delete-btn:hover {
+  background-color: #e615ca;
+}
+.deleteButtons button {
+  background-color: rgb(221, 86, 128);
+  margin-left: 5%;
+  margin-bottom: 5%;
+  margin-top: 10%;
+}
+
+#todoList li {
+  list-style-type: none;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  align-items: center;
+}
+
+#todoList input[type="checkbox"] {
+  margin-right: 30px;
+  height: 20px;
+  width: 20px;
+}
+#todoList li span {
+  font-size: 20px;
+}
+.fa-solid .fa-circle-xmark {
+  background-color: paleturquoise;
+}
